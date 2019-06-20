@@ -33,7 +33,7 @@ return [
     // 标签库标签结束标记
     'taglib_end'   => '}',
     'tpl_replace_string' => [
-            '__STATIC__'=>'/php/03kj/shopping-php/public/static',
-            '__ROOT__'=>'/php/03kj/shopping-php/public'
+            '__STATIC__'=>'/static',
+            '__ROOT__'=>'/'
     ]
 ];

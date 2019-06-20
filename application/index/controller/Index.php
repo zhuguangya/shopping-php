@@ -1,12 +1,11 @@
 <?php
 namespace app\index\controller;
-use Db;
-class Index
+use think\Controller;
+class Index extends Controller
 {
     public function index()
     {
-        $arr=Db::table('admin')->find();
-        var_dump($arr);
+        return $this->fetch();
     }
 
     public function hello($name = 'ThinkPHP5')

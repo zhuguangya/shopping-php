@@ -66,8 +66,8 @@
 	</div>
 </div>
 <!-- <div class="footer">Copyright 你的公司名称 by H-ui.admin.page.v3.0</div> -->
-
-<script src="__STATIC__/hui/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/js/jquery.min.js"></script>
+<!-- <script src="__STATIC__/hui/lib/jquery/1.9.1/jquery.min.js"></script> -->
 <!-- <script type="text/javascript" src="__STATIC__/hui/static/h-ui/js/H-ui.js"></script> -->
 
 <script>
@@ -87,6 +87,7 @@
                          	 name:name,
                            	 password:password
                            },
+                           type:'post',
                            dataType:'json',
                            success:function(res){
                            console.log(res.code)
